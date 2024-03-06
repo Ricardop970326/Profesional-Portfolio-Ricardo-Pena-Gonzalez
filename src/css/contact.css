@@ -215,3 +215,10 @@ label {
 
 }
 
+@media screen and (max-width: 600px) {
+  .contactButton{
+    margin-bottom: 8rem;
+  }
+
+}
+

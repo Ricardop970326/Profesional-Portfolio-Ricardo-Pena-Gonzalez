@@ -14,7 +14,7 @@ export default function Footer() {
     <div className="nav-links-container">
       <ul className="nav-links">
       <li>
-          <a href="#profile">Profile</a>
+          <a href="#desktop-nav">Profile</a>
         </li>
         <li>
           <a href="#about">About</a>

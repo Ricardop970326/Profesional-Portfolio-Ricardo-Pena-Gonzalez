@@ -1,10 +1,12 @@
 import React from 'react'
 import "../css/projects.css"
+import Game from "../assets/Game.png";
+
 import Calculator from "../assets/calculator.png";
 import Justice from "../assets/code-for-justice.png";
 import Ecommerce from "../assets/e-commerce.png";
 import Budject from "../assets/budjeg.png";
-import Movie from "../assets/movie.png";
+// import Movie from "../assets/movie.png";
 import Hope from "../assets/hope.png";
 import Ecomerce2 from "../assets/e-commercev2.png";
 import learner from "../assets/lrnr.png";
@@ -20,7 +22,22 @@ const Projects = () => {
           <div className="about-containers">
             <div className="details-container color-container">
               <div className="article-container">
-                <img src={Calculator} alt="Project 1" className="project-img" />
+                <img src={Game} alt="Project 1" className="project-img" />
+              </div>
+              <h2 className="experience-sub-title project-title">Rock-Paper-Scissors</h2>
+              <div className="btn-container">
+                <button className="btn btn-color-2 project-btn" onClick={() => window.open('https://github.com/Ricardop970326/rock-paper-scissors')}>
+                  Github
+                </button>
+                <button className="btn btn-color-2 project-btn" onClick={() => window.open('https://rock-paper-scissors-project-steel.vercel.app/')}>
+                  Live Demo
+                </button>
+              </div>
+            </div>
+            {/* Project Two */}
+            <div className="details-container color-container">
+              <div className="article-container">
+                <img src={Calculator} alt="Project 2" className="project-img" />
               </div>
               <h2 className="experience-sub-title project-title">Calculator</h2>
               <div className="btn-container">
@@ -32,10 +49,10 @@ const Projects = () => {
                 </button>
               </div>
             </div>
-            {/* Project Two */}
+            {/* Project Three */}
             <div className="details-container color-container">
               <div className="article-container">
-                <img src={Justice} alt="Project 2" className="project-img" />
+                <img src={Justice} alt="Project 3" className="project-img" />
               </div>
               <h2 className="experience-sub-title project-title">Code for Justice</h2>
               <div className="btn-container">
@@ -47,10 +64,10 @@ const Projects = () => {
                 </button>
               </div>
             </div>
-            {/* Project Three */}
+            {/* Project Four */}
             <div className="details-container color-container">
               <div className="article-container">
-                <img src={Ecommerce} alt="Project 3" className="project-img" />
+                <img src={Ecommerce} alt="Project 4" className="project-img" />
               </div>
               <h2 className="experience-sub-title project-title">E-Commerce VR1</h2>
               <div className="btn-container">
@@ -62,12 +79,16 @@ const Projects = () => {
                 </button>
               </div>
             </div>
-            {/* Project Four */}
+          </div>
+        </div>
+        <div className="experience-details-container">
+          {/* Project Five */}
+          <div className="about-containers">
             <div className="details-container color-container">
               <div className="article-container">
-                <img src={Budject} alt="Project 4" className="project-img" />
+                <img src={Budject} alt="Project 5" className="project-img" />
               </div>
-              <h2 className="experience-sub-title project-title">Budget Tracker </h2>
+              <h2 className="experience-sub-title project-title">Budget Tracker</h2>
               <div className="btn-container">
                 <button className="btn btn-color-2 project-btn" onClick={() => window.open('https://github.com/Ricardop970326/Budget-Tracker-Javascript-GI-Assigment-/')}>
                   Github
@@ -77,11 +98,8 @@ const Projects = () => {
                 </button>
               </div>
             </div>
-          </div>
-        </div>
-        <div className="experience-details-container">
-          {/* Project Five */}
-          <div className="about-containers">
+            {/* Project Five */}
+          {/* <div className="about-containers">
             <div className="details-container color-container">
               <div className="article-container">
                 <img src={Movie} alt="Project 5" className="project-img" />
@@ -95,7 +113,7 @@ const Projects = () => {
                   Live Demo
                 </button>
               </div>
-            </div>
+            </div> */}
             {/* Project Six */}
             <div className="details-container color-container">
               <div className="article-container">
@@ -121,7 +139,7 @@ const Projects = () => {
                 <button className="btn btn-color-2 project-btn" onClick={() => window.open('https://github.com/Ricardop970326/e-commercevr2c14/')}>
                   Github
                 </button>
-                <button className="btn btn-color-2 project-btn" onClick={() => window.open('#')}>
+                <button className="btn btn-color-2 project-btn" onClick={() => window.open('https://e-commerce-vr-2.onrender.com/')}>
                   Live Demo
                 </button>
               </div>
@@ -133,10 +151,10 @@ const Projects = () => {
               </div>
               <h2 className="experience-sub-title project-title">Learner App</h2>
               <div className="btn-container">
-                <button className="btn btn-color-2 project-btn" onClick={() => window.open('https://github.com/brenda0323manon/Lrnr_App/')}>
+                <button className="btn btn-color-2 project-btn" onClick={() => window.open('https://github.com/Ricardop970326/Lrnr_App_ricardo')}>
                   Github
                 </button>
-                <button className="btn btn-color-2 project-btn" onClick={() => {window.open('https://formspree.io/f/xwkdywrd')}}>
+                <button className="btn btn-color-2 project-btn" onClick={() => {window.open('https://lrnr-app-ricardo.onrender.com/')}}>
                   Live Demo
                 </button>
                 </div>   

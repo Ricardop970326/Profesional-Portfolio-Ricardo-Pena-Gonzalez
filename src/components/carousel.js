@@ -77,12 +77,7 @@ const Carousel = () => {
 </div>
         </div>
       </div>
-      <img
-        src={Arrow}
-        alt="Arrow icon"
-        className="icon arrow"
-        onClick={() => {window.location.href='./#projects'}} // Use onClick event handler instead of inline onclick
-      />
+  
     </section>
     
   );

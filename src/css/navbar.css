@@ -72,7 +72,9 @@ a:hover {
   position: absolute;
   top: 100%;
   right: 0;
-  background-color: whitesmoke;
+  border-radius: 15px;
+  background-color: rgb(229, 227, 227);
+  opacity: 0.8;
   width: fit-content;
   max-height: 0;
   overflow: hidden;
@@ -87,6 +89,14 @@ a:hover {
   color: black;
   text-decoration: none;
   transition: all 0.3 ease-in-out;
+}
+
+
+.menu-links a:hover {
+  color: white;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: white;
 }
 
 .menu-links li {
@@ -128,3 +138,21 @@ a:hover {
   #hamburger-nav {
     display: flex;
   }}
+
+  @media screen and (max-width: 600px) {
+ 
+  
+    .logo {
+      font-size: 1.5rem;
+      font-family: Arial, sans-serif;
+    }
+    .nav-links {
+      flex-direction: column;
+      gap: 0.5rem;
+      text-align: center;
+    }
+   
+  
+  }
+
+ 

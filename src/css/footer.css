@@ -9,6 +9,7 @@ footer p {
 }
 @media screen and (max-width: 600px) {
   footer{
-    margin-top: 10px;
+    height: 30vh;
+    margin-top: 90px;
   }
 }

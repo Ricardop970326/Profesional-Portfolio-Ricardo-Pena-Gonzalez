@@ -372,10 +372,9 @@ margin-top: 5rem;
 
 @media screen and (max-width: 600px) {
  
-  #contact,
-  footer {
+  #contact {
     height: 30vh;
-    
+    margin-top: 90px;
   }
   #profile {
     height: 83vh;

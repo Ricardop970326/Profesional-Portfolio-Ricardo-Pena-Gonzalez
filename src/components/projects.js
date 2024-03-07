@@ -6,7 +6,7 @@ import Calculator from "../assets/calculator.png";
 import Justice from "../assets/code-for-justice.png";
 import Ecommerce from "../assets/e-commerce.png";
 import Budject from "../assets/budjeg.png";
-// import Movie from "../assets/movie.png";
+import Budjectv2 from "../assets/budgetv2.png";
 import Hope from "../assets/hope.png";
 import Ecomerce2 from "../assets/e-commercev2.png";
 import learner from "../assets/lrnr.png";
@@ -64,7 +64,10 @@ const Projects = () => {
                 </button>
               </div>
             </div>
+            </div>
             {/* Project Four */}
+                      <div className="about-containers">
+
             <div className="details-container color-container">
               <div className="article-container">
                 <img src={Ecommerce} alt="Project 4" className="project-img" />
@@ -79,16 +82,14 @@ const Projects = () => {
                 </button>
               </div>
             </div>
-          </div>
-        </div>
-        <div className="experience-details-container">
+          
+        
           {/* Project Five */}
-          <div className="about-containers">
             <div className="details-container color-container">
               <div className="article-container">
                 <img src={Budject} alt="Project 5" className="project-img" />
               </div>
-              <h2 className="experience-sub-title project-title">Budget Tracker</h2>
+              <h2 className="experience-sub-title project-title">Tracker Vr1</h2>
               <div className="btn-container">
                 <button className="btn btn-color-2 project-btn" onClick={() => window.open('https://github.com/Ricardop970326/Budget-Tracker-Javascript-GI-Assigment-/')}>
                   Github
@@ -97,25 +98,9 @@ const Projects = () => {
                   Live Demo
                 </button>
               </div>
-            </div>
-            {/* Project Five */}
-          {/* <div className="about-containers">
-            <div className="details-container color-container">
-              <div className="article-container">
-                <img src={Movie} alt="Project 5" className="project-img" />
-              </div>
-              <h2 className="experience-sub-title project-title">Movies API</h2>
-              <div className="btn-container">
-                <button className="btn btn-color-2 project-btn" onClick={() => window.open('https://github.com/Ricardop970326/GI---MySQL-Node-Challenge-/')}>
-                  Github
-                </button>
-                <button className="btn btn-color-2 project-btn" onClick={() => window.open('#')}>
-                  Live Demo
-                </button>
-              </div>
-            </div> */}
-            {/* Project Six */}
-            <div className="details-container color-container">
+             </div>
+             {/* Project Six */}
+              <div className="details-container color-container">
               <div className="article-container">
                 <img src={Hope} alt="Project 6" className="project-img" />
               </div>
@@ -128,13 +113,31 @@ const Projects = () => {
                   Live Demo
                 </button>
               </div>
+              </div>
             </div>
+
             {/* Project Seven */}
+            <div className="about-containers">
             <div className="details-container color-container">
               <div className="article-container">
-                <img src={Ecomerce2} alt="Project 7" className="project-img" />
+                <img src={Budjectv2} alt="Project 7" className="project-img" />
               </div>
-              <h2 className="experience-sub-title project-title">E-Commerce VR2</h2>
+              <h2 className="experience-sub-title project-title">Tracker Vr2</h2>
+              <div className="btn-container">
+                <button className="btn btn-color-2 project-btn" onClick={() => window.open('https://github.com/Ricardop970326/Budget-Tracker-v2')}>
+                  Github
+                </button>
+                <button className="btn btn-color-2 project-btn" onClick={() => window.open('https://budget-tracker-v2-xtb3.onrender.com/')}>
+                  Live Demo
+                </button>
+              </div>
+            </div>
+            {/* Project Eight */}
+            <div className="details-container color-container">
+              <div className="article-container">
+                <img src={Ecomerce2} alt="Project 8" className="project-img" />
+              </div>
+              <h2 className="experience-sub-title project-title">E-Commerce Vr2</h2>
               <div className="btn-container">
                 <button className="btn btn-color-2 project-btn" onClick={() => window.open('https://github.com/Ricardop970326/e-commercevr2c14/')}>
                   Github
@@ -144,7 +147,7 @@ const Projects = () => {
                 </button>
               </div>
             </div>
-            {/* Project Eight */}
+            {/* Project nine */}
             <div className="details-container color-container">
               <div className="article-container">
                 <img src={learner} alt="Project 8" className="project-img" />
@@ -157,7 +160,8 @@ const Projects = () => {
                 <button className="btn btn-color-2 project-btn" onClick={() => {window.open('https://lrnr-app-ricardo.onrender.com/')}}>
                   Live Demo
                 </button>
-                </div>   
+                </div>  
+                </div> 
       </div>
       
       {/* Arrow Down */}
@@ -170,7 +174,6 @@ const Projects = () => {
             
           </div>
           
-        </div>
         
       </section>
     );

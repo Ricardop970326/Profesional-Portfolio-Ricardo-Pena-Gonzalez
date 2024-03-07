@@ -19,7 +19,7 @@ const Navbar = () => {
   return (
     <>
       <nav id="desktop-nav">
-        <div className="logo">Ricardo A. Peña G.</div>
+        <div id='logos' className="logo">Ricardo A. Peña G.</div>
         <div>
           <ul className="nav-links">
             <li>

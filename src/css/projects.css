@@ -123,8 +123,9 @@ section {
   }
   
   .btn-color-2 {
-    border: whitesmoke 1.5px solid;
+    color: whitesmoke ;
     background: none;
+    border: 1px solid gray;
   }
   
   .btn-color-2:hover {

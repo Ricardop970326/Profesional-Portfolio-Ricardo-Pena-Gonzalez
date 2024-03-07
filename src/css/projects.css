@@ -123,8 +123,8 @@ section {
   }
   
   .btn-color-2 {
+    border: grey 1.5px solid;
     background: whitesmoke;
-    border: 1.5px solid gray;
   }
   
   .btn-color-2:hover {

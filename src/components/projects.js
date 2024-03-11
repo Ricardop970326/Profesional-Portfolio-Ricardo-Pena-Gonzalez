@@ -177,7 +177,24 @@ const Projects = () => {
                 </button>
               </div>
             </div>
+          
             {/* Project Ten */}
+            <div className="details-container color-container">
+              <div className="article-container">
+                <img src={Justice2} alt="Project 8" className="project-img" />
+              </div>
+              <h2 className="experience-sub-title project-title">Code for Justice Vr2</h2>
+              <div className="btn-container">
+                <button className="btn btn-color-2 project-btn" onClick={() => window.open('https://github.com/Ricardop970326/Code-for-justice-v2/tree/main')}>
+                  Github
+                </button>
+                <button className="btn btn-color-2 project-btn" onClick={() => {window.open('https://code-for-justice-v2.onrender.com/')}}>
+                  Live Demo
+                </button>
+                </div>  
+                </div> 
+
+                  {/* Project Eleven */}
             <div className="details-container color-container">
               <div className="article-container">
                 <img src={Ecomerce2} alt="Project 8" className="project-img" />
@@ -192,21 +209,6 @@ const Projects = () => {
                 </button>
               </div>
             </div>
-            {/* Project Eleven */}
-            <div className="details-container color-container">
-              <div className="article-container">
-                <img src={Justice2} alt="Project 8" className="project-img" />
-              </div>
-              <h2 className="experience-sub-title project-title">Learner App</h2>
-              <div className="btn-container">
-                <button className="btn btn-color-2 project-btn" onClick={() => window.open('https://github.com/Ricardop970326/Code-for-justice-v2/tree/main')}>
-                  Github
-                </button>
-                <button className="btn btn-color-2 project-btn" onClick={() => {window.open('https://code-for-justice-v2.onrender.com/')}}>
-                  Live Demo
-                </button>
-                </div>  
-                </div> 
       </div>
       
       {/* Arrow Down */}
